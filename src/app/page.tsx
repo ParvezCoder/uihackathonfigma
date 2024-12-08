@@ -8,11 +8,11 @@ import TopPics from "./components/TopPics";
 export default function Home(props:any) {
   return (
     <>
-    {/* <HeroSection/> */}
-    {/* <TopPics/> */}
-    {/* <AsghaardSofa/> */}
-    {/* <Blogs/> */}
-    {/* <InstagramSection/> */}
+    <HeroSection/>
+    <TopPics/>
+    <AsghaardSofa/>
+    <Blogs/>
+    <InstagramSection/>
     <Footer/>
     </>
    );

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const TopPicss = (props:any) => {
+const TopPicss = (props:{name:string, price:string, image:string}) => {
   return (
   <>
    <div className='mt-10'>

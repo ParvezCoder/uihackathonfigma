@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const ComponentsForBlogs = (props: any) => {
+const ComponentsForBlogs = (props: {images:string}) => {
     return (
         <div className="p-4 rounded-lg shadow-[0_4px_10px_0px_rgba(93,96,127,0.2)] ">
             <div className="flex flex-col items-center">

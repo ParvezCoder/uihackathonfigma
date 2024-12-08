@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-const SecondPartHeroSection = (props: any) => {
+const SecondPartHeroSection = (props: {image:string}) => {
     return (
         <>
         <div className=''>

@@ -46,8 +46,11 @@ function Header() {
           </div>
 
           <div className='flex gap-x-4 items-center font-bold text-3xl'>
+            <Link href="/Account" className='p-2'>
             <FontAwesomeIcon icon={faAddressCard}
               className="text-xl ml-2" />
+            
+            </Link>
             {/* Search bar - hidden on small screens */}
             <FontAwesomeIcon
               icon={faSearch}

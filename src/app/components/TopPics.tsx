@@ -11,7 +11,7 @@ const TopPics = () => {
                         Find a bright idea to suit your taste with our great selection of suspension, floor, and table lights.
                     </p></div>
             </div>
-            <div className='flex justify-center space-x-9'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 justify-center space-x-9'>
                 <TopPicss
                     name="Trenton Modular Sofa_3"
                     image="/TrentonSofa.png"
@@ -35,6 +35,7 @@ const TopPics = () => {
                 />
 
             </div>
+
             <div className='text-center mt-16'>
                 <button className='border-b-2 font-bold p-2 border-black text-lg '>View more</button>
 

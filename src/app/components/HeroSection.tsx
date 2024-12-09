@@ -6,22 +6,24 @@ import SecondPartHeroSection from "@/app/components/SecondPartHeroSection"
 const HeroSection = () => {
     return (
         <>
-            <div className='h-[200] w-1440 bg-[#FBEBB5] '>
 
-                <Navbar />
-                <div className='flex items-center justify-center -mt-16  '>
-                    <div className='w-1/3  flex md:flex-col items-end justify-end '>
-                        <div className='w-80'><h1 className='text-5xl  '>Rocket Single Seater</h1></div>
-                        <button className='border-b-2 text-lg border-black mr-56  text-black mt-2'>Shop Now</button>
+
+            <div className="bg-[#FBEBB5] w-full font-[sans-serif]">
+            <Navbar />
+
+                <div className="grid md:grid-cols-2 items-center md:max-h-[475px] overflow-hidden">
+                    <div className="">
+                    <h1 className="flex justify-center items-end sm:text-4xl text-2xl font-bold ">Rocket Single Seater</h1>
+                    <h1 className="flex justify-center  items-end sm:text-md text-lg font-bold "> <span className='border-b-2 border-black mt-6 text-black'>Shop now</span></h1>
 
                     </div>
-                    <div className='w-2/3  flex items-center justify-center h-[900] '>
-                        <Image src="/Rocket.png" alt='Rocket' height={200} width={300} className=' w-2/3 h-auto ' />
-                    </div>
+                    <Image src="/Rocket.png" alt='Rocket' height={200} width={300} className=' w-2/3 h-auto ' />
+
                 </div>
             </div>
 
-            <div className="flex space-x-36 justify-center bg-[#FAF4F4] p-10">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 space-x-36 justify-center bg-[#FAF4F4]  p-10">
+
                 <SecondPartHeroSection image='/Table.png' />
                 <SecondPartHeroSection image='/Soofa.png' />
 

@@ -34,13 +34,13 @@ function Header() {
                 <Link href="/">Home</Link>
               </li>
               <li className='p-4 hover:underline underline-offset-2'>
-                <Link href="/contact">About</Link>
+                <Link href="/Shop">Shop</Link>
               </li>
               <li className='p-4 hover:underline underline-offset-2'>
-                <Link href="/about">Contact</Link>
+                <Link href="/About">About</Link>
               </li>
               <li className='p-4 hover:underline underline-offset-2'>
-                <Link href="/signup">Sign Up</Link>
+                <Link href="/Contact">Contact</Link>
               </li>
             </ul>
           </div>

@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHeart, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-
+import Image from "next/image"
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
 import Link from "next/link";
 import { useState } from 'react';
@@ -37,7 +37,7 @@ function Header() {
                 <Link href="/Shop">Shop</Link>
               </li>
               <li className='p-4 hover:underline underline-offset-2'>
-                <Link href="/About">About</Link>
+                <Link href="/blog">Blog</Link>
               </li>
               <li className='p-4 hover:underline underline-offset-2'>
                 <Link href="/Contact">Contact</Link>
@@ -47,9 +47,7 @@ function Header() {
 
           <div className='flex gap-x-4 items-center font-bold text-3xl'>
             <Link href="/Account" className='p-2'>
-            <FontAwesomeIcon icon={faAddressCard}
-              className="text-xl ml-2" />
-            
+              <Image src="/userIcon.png" alt='user icon' height={200} width={200} className='h-5 w-5' />
             </Link>
             {/* Search bar - hidden on small screens */}
             <FontAwesomeIcon
@@ -57,9 +55,8 @@ function Header() {
               className="text-xl ml-2"
             />
             {/* Icons */}
-            <FontAwesomeIcon icon={faHeart} className='text-2xl'></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faShoppingCart} className='text-gray-700 mr-1 text-2xl'></FontAwesomeIcon>
-
+            <Image src="/heartIcon.png" alt='user icon' height={200} width={200} className='h-5 w-5' />
+            <Image src="/cartIcon.png" alt='user icon' height={200} width={200} className='h-5 w-5' />
             {/* Toggle Button for mobile */}
             <button
               className="text-black block md:hidden text-3xl z-50"

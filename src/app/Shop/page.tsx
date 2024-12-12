@@ -1,25 +1,15 @@
 import TopPicss from '@/app/components/SharedComponents/TopPicss'
-import Navbar from "@/app/components/Navbar"
+import Navbar from "@/app/components/SharedComponents/Navbar"
 import React from 'react';
 import Image from 'next/image';
 import Footer from '../components/SharedComponents/Footer';
+import Header2 from '../components/SharedComponents/Header2';
 
 const Shop = () => {
     return (
         <>
             <Navbar />
-            <div className="relative  py-16 font-[sans-serif]">
-                <div className="absolute inset-0">
-                    <Image height={300} width={300} src="/shop2.png" alt="Background Image" className="w-full h-full object-cover " />
-                </div>
-
-                <div className="relative max-w-screen-xl mx-auto px-8 z-10 text-center ">
-                    {/* <Image height={300} width={300} src="/small.png" alt="Background Image" className="w-auto h-auto object-cover " /> */}
-                    <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">Shop</h1>
-                    <p className="text-lg md:text-xl mb-12">Home</p>
-                    {/* <button type="button" className="  text-base tracking-wide px-6 py-3 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl">Get Started</button> */}
-                </div>
-            </div>
+            <Header2 heading="Shop" text="shop" />
             <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 justify-center space-x-9'>
                 <TopPicss
                     name="Trenton Modular Sofa_3"
@@ -152,7 +142,7 @@ const Shop = () => {
 
 
             </div>
-            <Footer/>
+            <Footer />
 
         </>
     );

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "@/app/components/Navbar"
+import Navbar from "@/app/components/SharedComponents/Navbar"
 import Image from 'next/image'
 import SecondPartHeroSection from "@/app/components/SecondPartHeroSection"
 
@@ -8,10 +8,10 @@ const HeroSection = () => {
         <>
 
 
-            <div className="bg-[#FBEBB5] w-full font-[sans-serif]">
+            <div className="bg-[#FBEBB5] w-full h-screen font-[sans-serif]">
             <Navbar />
 
-                <div className="grid md:grid-cols-2 items-center md:max-h-[475px] overflow-hidden">
+                <div className="grid md:grid-cols-2 items-center md:max-h-[1000px] overflow-hidden">
                     <div className="">
                     <h1 className="flex justify-center items-end sm:text-4xl text-2xl font-bold ">Rocket Single Seater</h1>
                     <h1 className="flex justify-center  items-end sm:text-md text-lg font-bold "> <span className='border-b-2 border-black mt-6 text-black'>Shop now</span></h1>

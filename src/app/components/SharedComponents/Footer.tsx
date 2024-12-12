@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -21,16 +22,22 @@ const Footer = () => {
                             <h2 className=" text-lg  font-semibold text-gray-400 mb-4">Links</h2>
                             <ul className="space-y-3">
                                 <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">Home</a>
+                                    <Link href="/" className="  text-sm transition-all">
+                                        Home
+                                    </Link>
                                 </li>
+                                <li>  <Link href="/Shop" className="  text-sm transition-all">
+                                    Shop
+                                </Link></li>
                                 <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">About</a>
+                                    <Link href="/blog" className="  text-sm transition-all">
+                                        Blogs
+                                    </Link>
                                 </li>
-                                <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">Shop</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">Contact</a>
+                                <li> 
+                                     <Link href="/Contact" className="  text-sm transition-all">
+                                    Contact
+                                </Link>
                                 </li>
 
                             </ul>
@@ -40,13 +47,20 @@ const Footer = () => {
                             <h2 className="text-gray-400 text-sm uppercase font-semibold mb-4">Help</h2>
                             <ul className="space-y-3">
                                 <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">Github</a>
+                                    
+                                <Link href="https://www.linkedin.com/in/parvez-ahmed-1604b92b5/" target='_blank' className="  text-sm transition-all">
+                                    Linkedin
+                                </Link>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">linkedin</a>
+                                <Link href="https://github.com/ParvezCoder" target='_blank' className="  text-sm transition-all">
+                                    Github
+                                </Link>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">Twitter</a>
+                                <Link href="https://wa.me/923052887779" target='_blank' className="  text-sm transition-all">
+                                Whatsapp                                </Link>
+                                
                                 </li>
                             </ul>
                         </div>
@@ -55,13 +69,13 @@ const Footer = () => {
                             <h2 className="text-gray-400 text-sm uppercase font-semibold mb-4">Newsletter</h2>
                             <ul className="space-y-3">
                                 <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">About</a>
+                                    <a href="javascript:void(0)" className="  text-sm transition-all">About</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">Privacy Policy</a>
+                                    <a href="javascript:void(0)" className="  text-sm transition-all">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)" className=" hover:text-white text-sm transition-all">Terms &amp; Conditions</a>
+                                    <a href="javascript:void(0)" className="  text-sm transition-all">Terms &amp; Conditions</a>
                                 </li>
                             </ul>
                         </div>
@@ -70,10 +84,10 @@ const Footer = () => {
 
                     <hr className="mt-12 mb-6 border-gray-600" />
                     <p className=' text-lg'>2022 Meubel House. All rights reverved
-                        </p>
-                    
+                    </p>
 
-                  </div>
+
+                </div>
             </footer>
         </>
     )

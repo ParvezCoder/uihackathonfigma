@@ -1,7 +1,6 @@
 import TopPicss from '@/app/components/SharedComponents/TopPicss'
 import Navbar from "@/app/components/SharedComponents/Navbar"
 import React from 'react';
-import Image from 'next/image';
 import Footer from '../components/SharedComponents/Footer';
 import Header2 from '../components/SharedComponents/Header2';
 

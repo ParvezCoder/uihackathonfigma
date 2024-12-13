@@ -6,7 +6,7 @@ import Header2 from '@/app/components/SharedComponents/Header2';
 import Footer from "@/app/components/SharedComponents/Footer"
 import LastBlogs from '../components/SharedComponents/LastBlogs';
 
-const Blog = () => {
+const Blogg = () => {
   return (
     <>
       <Navbar />
@@ -119,4 +119,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Blogg;

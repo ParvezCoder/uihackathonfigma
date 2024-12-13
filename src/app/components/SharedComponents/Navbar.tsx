@@ -3,7 +3,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHeart, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image"
-import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
 import Link from "next/link";
 import { useState } from 'react';
 

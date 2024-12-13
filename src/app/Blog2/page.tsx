@@ -36,32 +36,32 @@ const Blogg = () => {
             </div>
             <div className='mt-10 ml-8'>
               <h2 className='text-2xl '>Categories</h2>
-              <div className='flex justify-between mt-6 w-80 text-gray-500'>
+              <div className='flex justify-between mt-6 w-48 lg:w-80 text-gray-500'>
                 <p>Crafts</p>
                 <p>2</p>
               </div>
 
-              <div className='flex justify-between mt-6 w-80 text-gray-500'>
+              <div className='flex justify-between mt-6 w-48 lg:w-80 text-gray-500'>
                 <p>Design</p>
                 <p>8</p>
               </div>
 
-              <div className='flex justify-between mt-6 w-80 text-gray-500'>
+              <div className='flex justify-between mt-6 w-48 lg:w-80 text-gray-500'>
                 <p>Handmate</p>
                 <p>7</p>
 
               </div>
-              <div className='flex justify-between mt-6 w-80 text-gray-500'>
+              <div className='flex justify-between mt-6 w-48 lg:w-80 text-gray-500'>
                 <p>Crafts</p>
                 <p>2</p>
               </div>
 
-              <div className='flex justify-between mt-6 w-80 text-gray-500'>
+              <div className='flex justify-between mt-6 w-48 lg:w-80 text-gray-500'>
                 <p>Interior</p>
                 <p>1</p>
               </div>
 
-              <div className='flex justify-between mt-6 w-80 text-gray-500'>
+              <div className='flex justify-between mt-6 w-48 lg:w-80 text-gray-500'>
                 <p>Wood</p>
                 <p>6</p>
               </div>

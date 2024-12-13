@@ -29,7 +29,7 @@ function Header() {
             className={`${open ? "translate-x-0" : "-translate-x-full"
               } md:flex md:translate-x-0 md:static w-[50%] md:w-auto bg-gray-800 md:bg-transparent absolute top-0 left-0 h-screen md:h-auto z-40 transition-transform duration-500 ease-in-out`}
           >
-            <ul className='flex flex-col md:flex-row md:gap-x-2 lg:gap-x-5 xl:gap-x-5 2xl:gap-x-10 sm:text-md md:text-sm lg:text-2xl xl:text-md text-white md:text-black '>
+            <ul className='flex flex-col md:flex-row md:gap-x-2 lg:gap-x-5 xl:gap-x-5 2xl:gap-x-10 sm:text-sm md:text-md lg:text-xl xl:text-md text-white md:text-black '>
               <li className='p-4 hover:underline underline-offset-2 '>
                 <Link href="/">Home</Link>
               </li>
@@ -37,7 +37,7 @@ function Header() {
                 <Link href="/Shop">Shop</Link>
               </li>
               <li className='p-4 hover:underline underline-offset-2'>
-                <Link href="/blog">Blog</Link>
+                <Link href="/Blog">Blog</Link>
               </li>
               <li className='p-4 hover:underline underline-offset-2'>
                 <Link href="/Contact">Contact</Link>

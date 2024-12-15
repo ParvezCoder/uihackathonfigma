@@ -8,17 +8,18 @@ const HeroSection = () => {
         <>
 
 
-            <div className="bg-[#FBEBB5] w-full h-screen font-[sans-serif]">
-            <Navbar />
+            <div className="bg-[#FBEBB5] n font-[sans-serif]">
+                <Navbar />
 
-                <div className="grid md:grid-cols-2 items-center md:max-h-[1000px] overflow-hidden">
-                    <div className="">
-                    <h1 className="flex justify-center items-end sm:text-4xl text-2xl font-bold ">Rocket Single Seater</h1>
-                    <h1 className="flex justify-center  items-end sm:text-md text-lg font-bold "> <span className='border-b-2 border-black mt-6 text-black'>Shop now</span></h1>
+                <div className="grid grid-c md:grid-cols-2  md:items-center items-start ">
+                    <div className="flex md:justify-end  justify-center mt-10 md:mt-0">
+                        <div className='text-left'>
 
+                            <h1 className="sm:text-4xl text-2xl w-72 font-bold">Rocket Single Seater</h1>
+                            <h1 className="sm:text-md text-lg font-bold mt-4 text-black     "><span className='border-b border-black py-2'> Shop Now</span></h1>
+                        </div>
                     </div>
                     <Image src="/Rocket.png" alt='Rocket' height={200} width={300} className=' w-2/3 h-auto ' />
-
                 </div>
             </div>
 

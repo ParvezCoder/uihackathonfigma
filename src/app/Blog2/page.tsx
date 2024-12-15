@@ -5,6 +5,7 @@ import Navbar from "@/app/components/SharedComponents/Navbar"
 import Header2 from '@/app/components/SharedComponents/Header2';
 import Footer from "@/app/components/SharedComponents/Footer"
 import LastBlogs from '../components/SharedComponents/LastBlogs';
+import SmallBlogs from '../components/SharedComponents/SmallBlogs';
 
 const Blogg = () => {
   return (
@@ -35,7 +36,7 @@ const Blogg = () => {
               <Image src="/searchIcon.png" alt='search' width={200} height={200} className='h-6 w-6 ' />
             </div>
             <div className='mt-10 ml-8'>
-              <h2 className='text-2xl '>Categories</h2>
+              <h2 className='text-2xl font-bold'>Categories</h2>
               <div className='flex justify-between mt-6 w-48 lg:w-80 text-gray-500'>
                 <p>Crafts</p>
                 <p>2</p>
@@ -65,6 +66,18 @@ const Blogg = () => {
                 <p>Wood</p>
                 <p>6</p>
               </div>
+            </div>
+          </div>
+          <div className='mt-28 ml-8'>
+            <h2 className='text-xl lg:text-2xl font-semibold w-48 lg:font-bold'>Recent post</h2>
+            <div className='space-y-8'>
+              <SmallBlogs heading="Going all-in with millennial Design" image="/side.png" />
+              <SmallBlogs heading="Exploring new way of Decorating" image="/side2.png" />
+              <SmallBlogs heading="Handmade pieces that took time to make" image="/side3.png" />
+              <SmallBlogs heading="Modern home in milan" image="/side4.png" />
+              <SmallBlogs heading="colorful office redesign" image="/side5.png" />
+
+
             </div>
           </div>
         </div>

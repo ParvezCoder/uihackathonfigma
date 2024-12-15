@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 const AsghaardSofa = () => {
     return (
@@ -11,7 +12,8 @@ const AsghaardSofa = () => {
                     <div className='text-center gap-28  space-y-5'>
                         <p className='font-semibold '>New Arrival</p>
                         <h1 className='text-3xl font-bold'>Asgaard Sofa</h1>
-                        <button className='border-2 border-black px-4 py-2 text-gray-800'>Order Now</button>
+
+                        <button > <Link href="/SingleProduct" className='border-2 border-black px-4 py-2 text-gray-800'>Order Now</Link> </button>
 
                     </div>
                 </div>

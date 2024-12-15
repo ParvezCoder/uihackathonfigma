@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 
-const SmallBlogs = (props:any) => {
+const SmallBlogs = (props:{heading:string, image:string}) => {
     return (
 
 

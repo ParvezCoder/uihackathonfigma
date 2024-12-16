@@ -55,7 +55,7 @@ const FirstSection = () => {
             </div>
 
             <div className='lg:h-10 h-10 px-10  lg:px-16 border rounded-lg border-gray-800 mt-10'>
-              <div className='flex mt-1 justify-center items-center text-xl font-semibold space-x-7'>
+              <div className='flex mt-1 justify-center items-center text-sm lg:text-xl font-semibold space-x-2 lg:space-x-7'>
                 <h2> Add to Cart</h2>
               </div>
             </div>

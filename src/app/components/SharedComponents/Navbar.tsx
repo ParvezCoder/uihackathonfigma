@@ -55,7 +55,12 @@ function Header() {
             />
             {/* Icons */}
             <Image src="/heartIcon.png" alt='user icon' height={200} width={200} className='h-5 w-5' />
+            <Link href="/SingleProduct" className='p-2'>
             <Image src="/cartIcon.png" alt='user icon' height={200} width={200} className='h-5 w-5' />
+
+            </Link>
+            
+            
             {/* Toggle Button for mobile */}
             <button
               className="text-black block md:hidden text-3xl z-50"

@@ -4,6 +4,7 @@ import Navbar from "@/app/components/SharedComponents/Navbar"
 import Header2 from '../components/SharedComponents/Header2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Footer from "@/app/components/SharedComponents/Footer"
+import FreeDelieveryComponents from '../components/SharedComponents/FreeDelieveryComponents';
 
 const Contact = () => {
     return (
@@ -80,29 +81,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid bg-[#FAF4F4] p-16 grid-cols-1 md:grid-cols-3 gap-2 space-x-2 mt-24 '>
-                <div className='text-center space-y-4'>
-                    <h2 className='font-bold text-lg lg:text-2xl '>
-                        Free Delivery
-                    </h2>
-                    <p className='text-sm lg:text-lg'>For all oders over $50, consectetur adipim scing elit.</p>
-                </div>
-
-                <div className='text-center space-y-4'>
-                    <h2 className='font-bold text-lg lg:text-2xl '>
-                        90 days Return
-                    </h2>
-                    <p className='text-sm lg:text-lg'>If goods have problems, consectetur adipim scing elit..</p>
-                </div>
-                <div className='text-center space-y-4'>
-                    <h2 className='font-bold text-lg lg:text-2xl '>
-                        Secure PAyment
-                    </h2>
-                    <p className='text-sm lg:text-lg'>100% secure payment, consectetur adipim scing elit.</p>
-                </div>
-
-
-            </div>
+            <FreeDelieveryComponents/>
             <Footer />
 
         </>

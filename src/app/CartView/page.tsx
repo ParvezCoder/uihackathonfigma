@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { RiDeleteBin6Line } from 'react-icons/ri'
 import Footer from '../components/SharedComponents/Footer'
 import Navbar from "@/app/components/SharedComponents/Navbar"

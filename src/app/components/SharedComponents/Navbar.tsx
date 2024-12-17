@@ -5,6 +5,7 @@ import { faSearch, faHeart, faShoppingCart } from '@fortawesome/free-solid-svg-i
 import Image from "next/image"
 import Link from "next/link";
 import { useState } from 'react';
+import ShoppingCart from '../Cart';
 // edit block
 
 function Header() {
@@ -55,11 +56,7 @@ function Header() {
             />
             {/* Icons */}
             <Image src="/heartIcon.png" alt='user icon' height={200} width={200} className='h-5 w-5' />
-            <Link href="/SingleProduct" className='p-2'>
-            <Image src="/cartIcon.png" alt='user icon' height={200} width={200} className='h-5 w-5' />
-
-            </Link>
-            
+            <ShoppingCart/>
             
             {/* Toggle Button for mobile */}
             <button
